@@ -26,7 +26,7 @@ You can create the Python environment to run this project by passing the followi
 `pip install numpy==1.22.2`  
 `pip install matplotlib==3.6.2`
 
-You can also install all the above requirements by running the following command in your Python environment:
+You can also install all the above requirements by running the following command in your Python environment:  
 `pip install -r requirments.txt`
 
 # **Important note about training Space-Filling Vector Quantizer**
