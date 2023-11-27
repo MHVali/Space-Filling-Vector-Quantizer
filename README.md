@@ -22,12 +22,15 @@ Due to some limitations of TensorBoard, we prefered our own custom logging funct
 You can create the Python environment to run this project by passing the following lines of code in your terminal window in the following order:
 
 `conda create --name sfvq python=3.8`  
+`conda activate sfvq`  
 `pip install torch==1.13.0`  
 `pip install numpy==1.22.2`  
 `pip install matplotlib==3.6.2`
 
 You can also install all the above requirements by running the following command in your Python environment:  
-`pip install -r requirments.txt`
+`pip install -r requirments.txt`  
+
+The requirements to use this repository is not that much strict, becuase the functions used in the code are so basic such that they also work with higher Python, PyTorch and Numpy versions.
 
 # **Important note about training Space-Filling Vector Quantizer**
 
