@@ -15,7 +15,7 @@ learning_rate = 1e-3
 pdf_file = PdfPages(f'log_{desired_vq_bitrate}bits_bs{batch_size}_lr{learning_rate}.pdf')
 
 # loading the training logs
-total_vq_loss = np.load(f'total_vq_loss_{desired_vq_bitrate}bits_bs{batch_size}_lr{learning_rate}.npy')
+total_vq_loss = np.load(f'total_sfvq_loss_{desired_vq_bitrate}bits_bs{batch_size}_lr{learning_rate}.npy')
 total_perplexity = np.load(f'total_perplexity_{desired_vq_bitrate}bits_bs{batch_size}_lr{learning_rate}.npy')
 with open(f"used_codebook_indices_list_{desired_vq_bitrate}bits_bs{batch_size}_lr{learning_rate}", "rb") as fp:
     used_codebook_indices_list = pickle.load(fp)
