@@ -28,7 +28,7 @@ You can create the Python environment to run this project by passing the followi
 `pip install matplotlib==3.6.2`
 
 You can also install all the above requirements by running the following command in your Python environment:  
-`pip install -r requirments.txt`  
+`pip install -r requirements.txt`  
 
 The requirements to use this repository is not that much strict, becuase the functions used in the code are so basic such that they also work with higher Python, PyTorch and Numpy versions.
 
